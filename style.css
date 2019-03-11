@@ -1,0 +1,20 @@
+.main-article-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.main-article-category,
+.author-name:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.main-article-category:hover,
+.main-article-title:hover,
+.author-name {
+  text-decoration: underline;
+}
+
+footer {
+  color: #ffffff;
+  background-color: #343a40;
+}
