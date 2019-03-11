@@ -18,3 +18,8 @@ footer {
   color: #ffffff;
   background-color: #343a40;
 }
+
+.recent-articles {
+  font-size: 1.7em;
+  font-weight: bold;
+}
