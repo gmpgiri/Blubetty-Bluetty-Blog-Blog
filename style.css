@@ -4,13 +4,16 @@
 }
 
 .main-article-category,
-.author-name:hover {
+.author-name:hover,
+.sub-article-author:hover {
   color: rgba(0, 0, 0, 0.4);
 }
 
 .main-article-category:hover,
 .main-article-title:hover,
-.author-name {
+.author-name,
+.sub-article-title:hover,
+.sub-article-category:hover {
   text-decoration: underline;
 }
 
@@ -22,4 +25,24 @@ footer {
 .recent-articles {
   font-size: 1.7em;
   font-weight: bold;
+}
+
+.sub-article-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.sub-article-category,
+.sub-article-date {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.8em;
+}
+
+.sub-article-author {
+  text-decoration: underline;
+  font-size: 0.8em;
+}
+
+.load-more-link {
+  color: blue;
 }
