@@ -13,7 +13,8 @@
 .main-article-title:hover,
 .author-name,
 .sub-article-title:hover,
-.sub-article-category:hover {
+.sub-article-category:hover,
+.demo-link:hover {
   text-decoration: underline;
 }
 
@@ -45,4 +46,9 @@ footer {
 
 .load-more-link {
   color: blue;
+}
+
+.Ads {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
 }
